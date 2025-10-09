@@ -9,3 +9,13 @@ print("El tipo de dato es:", type(num))
 num = float(input("Escribe un número: "))
 print("El número introducido es:", num)
 print("El tipo de dato es:", type(num))
+
+num1 = int(input("Escribe un número entero: "))
+print("{:05d}".format(num1))
+num2 = float(input("Escribe un número decimal: "))
+print("{:09.3f}".format(num2))
+
+altura = float(input("Escribe tu altura: "))
+peso = float(input("Escribe tu peso: "))
+print("Tu altura es de", altura, "metros y tu peso es de", peso, "kg.")
+print("Tu altura es de {} metros y tu peso es de {} kg.".format(altura, peso))
