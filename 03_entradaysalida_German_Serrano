@@ -1,0 +1,11 @@
+num = input("Escribe un número: ")
+print("El número introducido es:", num)
+print("El tipo de dato es:", type(num))
+
+num = int(input("Escribe un número: "))
+print("El número introducido es:", num)
+print("El tipo de dato es:", type(num))
+
+num = float(input("Escribe un número: "))
+print("El número introducido es:", num)
+print("El tipo de dato es:", type(num))
